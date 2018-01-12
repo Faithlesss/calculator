@@ -1,0 +1,58 @@
+* {
+	margin: 0; padding: 0;
+}
+
+html, body {
+	width: 100%;
+}
+
+.credits {
+	border: 1px solid black;
+	width: 260px;
+	box-shadow: 2px 2px grey;
+	margin: 5% auto 0 auto;
+}
+
+#container {
+	width: 500px; height: 500px;
+	border: 1px solid black;
+	display: table;
+	border-spacing: 10px;
+	border-collapse: separate;
+	background-color: #99ccea;
+	position: fixed;
+	margin-left:-250px; margin-top:-250px;
+    top: 50%; left: 50%;
+    table-layout: fixed;
+}
+
+#trdisplay {
+	display: table-row;
+	text-align: right;
+}
+
+#tcdisplay {
+	display: table-cell;
+	border: 5px solid #8eb1c8;
+	text-align: center;
+	background-color: white;
+	height: 100px;
+	font-family: helvetica;
+}
+
+.trow {
+	display: table-row;
+}
+
+.tcbutton {
+	display: table-cell;
+	border: 5px solid #8eb1c8;
+	text-align: center;
+	background-color: white;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+.tcbutton:active:hover {
+	background-color: grey;
+}
